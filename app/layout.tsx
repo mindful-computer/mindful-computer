@@ -41,20 +41,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         {children}
-        <footer className="fixed bottom-4 right-4 flex space-x-4">
-          <a 
-            href="/privacy" 
-            className="text-gray-500 hover:text-gray-300 text-sm transition-colors"
-          >
-            Privacy
-          </a>
-          <a 
-            href="/terms" 
-            className="text-gray-500 hover:text-gray-300 text-sm transition-colors"
-          >
-            Terms
-          </a>
-        </footer>
       </body>
     </html>
   )
