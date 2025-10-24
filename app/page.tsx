@@ -33,8 +33,8 @@ export default function Home() {
           rel="noopener noreferrer"
           className="text-sm font-normal transition-colors duration-200 hover:underline"
           style={{ color: '#7B7583' }}
-          onMouseEnter={(e) => e.target.style.color = '#322644'}
-          onMouseLeave={(e) => e.target.style.color = '#7B7583'}
+          onMouseEnter={(e) => (e.target as HTMLAnchorElement).style.color = '#322644'}
+          onMouseLeave={(e) => (e.target as HTMLAnchorElement).style.color = '#7B7583'}
         >
           WHITEPAPER
         </a>
@@ -44,8 +44,8 @@ export default function Home() {
           rel="noopener noreferrer"
           className="text-sm font-normal transition-colors duration-200 hover:underline"
           style={{ color: '#7B7583' }}
-          onMouseEnter={(e) => e.target.style.color = '#322644'}
-          onMouseLeave={(e) => e.target.style.color = '#7B7583'}
+          onMouseEnter={(e) => (e.target as HTMLAnchorElement).style.color = '#322644'}
+          onMouseLeave={(e) => (e.target as HTMLAnchorElement).style.color = '#7B7583'}
         >
           GITHUB
         </a>
@@ -53,8 +53,8 @@ export default function Home() {
           href="mailto:hello@mindful.computer"
           className="text-sm font-normal transition-colors duration-200 hover:underline"
           style={{ color: '#7B7583' }}
-          onMouseEnter={(e) => e.target.style.color = '#322644'}
-          onMouseLeave={(e) => e.target.style.color = '#7B7583'}
+          onMouseEnter={(e) => (e.target as HTMLAnchorElement).style.color = '#322644'}
+          onMouseLeave={(e) => (e.target as HTMLAnchorElement).style.color = '#7B7583'}
         >
           CONTACT
         </a>
