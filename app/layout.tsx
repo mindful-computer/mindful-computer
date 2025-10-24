@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: 'mindful intelligence - a minimalist approach to computing',
     images: [
       {
-        url: '/opengraph-image.png',
+        url: '/mindful-computer-opengraph.jpg',
         width: 1200,
         height: 630,
         alt: 'mindful computer - mindful intelligence',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'mindful computer - mindful intelligence',
     description: 'mindful intelligence - a minimalist approach to computing',
-    images: ['/opengraph-image.png'],
+    images: ['/mindful-computer-opengraph.jpg'],
   },
   icons: {
     icon: '/favicon.ico',
