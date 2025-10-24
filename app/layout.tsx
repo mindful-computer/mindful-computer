@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Overpass_Mono } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const overpassMono = Overpass_Mono({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'mindful computer - mindful intelligence',
@@ -39,7 +39,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={overpassMono.className}>
         {children}
       </body>
     </html>
